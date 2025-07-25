@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/data_validation_store.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.voting_with_vote_receipt]
+path = 'contracts/voting_with_vote_receipt.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
